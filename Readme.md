@@ -6,12 +6,12 @@ This is a basic texture replacement mod for the Cigarette Pack, specifically to 
 
 Based off of my expiriences as well as the following google doc made by `hunjonzie` [Google Doc](https://docs.google.com/document/d/1nSW7Mef1O3LT_IcUiEuMmE0mQw9gL4IF6HEIOEdL_Ek/edit?tab=t.0) and [Dmgvol/UE_Modding](https://github.com/Dmgvol/UE_Modding)
 
-Locate the texture you want to modify, and extract it with fmodel, in my case I am extracting the Cigarette pack texture, located at `pakchunk0_s3-Windows.utoc/IntoTheRadius2/Content/ITR2/Art/Items/Cigarett_Pack/texture/T_CigarettePack_02_C.uasset`
-    - This `uproject` is already named correctly so we can skip `IntoTheRadis2/` in the path, 
-    - create the structure for `/Content/ITR2/Art/Items/Cigarett_Pack/texture/`
-    ![alt text](.repo-assets/example-structure-1.png)
-    - modify the extracted image
-    - import the newly modified image to the folder above, ensuring it is named exactly the same as it is in FModel (in this case, `T_CigarettePack_02_C`)
+- Locate the texture you want to modify, and extract it with fmodel, in my case I am extracting the Cigarette pack texture, located at `pakchunk0_s3-Windows.utoc/IntoTheRadius2/Content/ITR2/Art/Items/Cigarett_Pack/texture/T_CigarettePack_02_C.uasset`
+  - This `uproject` is already named correctly so we can skip `IntoTheRadis2/` in the path,
+  - create the structure for `/Content/ITR2/Art/Items/Cigarett_Pack/texture/`
+  - ![alt text](.repo-assets/example-structure-1.png)
+  - modify the extracted image
+  - import the newly modified image to the folder above, ensuring it is named exactly the same as it is in FModel (in this case, `T_CigarettePack_02_C`)
 
 For reference I have included the original texture (unmodified) in [.repo-assets/original-asset/](.repo-assets/original-asset/), and below is the modified asset I created
 
