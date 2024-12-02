@@ -106,7 +106,7 @@ This section uses [Dmgvol's Cooking Content Guide](https://github.com/Dmgvol/UE_
    IntoTheRadius2/Content/Paks
    ```
 
-2. Locate the three `pakchunk5000-Windows` files and rename them to:
+2. Locate the three files titled `pakchunkXYZ-Windows`, XYZ being the number you set in previous steps, and rename them to: 
 
    ```
    <modname>_P
